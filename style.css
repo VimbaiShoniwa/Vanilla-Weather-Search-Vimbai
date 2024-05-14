@@ -46,7 +46,7 @@ header {
 .weather-app-temperature {
   font-size: 88px;
   font-weight: bold;
-
+  margin-left: 15px;
   line-height: 88px;
 }
 .search-form-input {
