@@ -46,6 +46,8 @@ header {
 .weather-app-temperature {
   font-size: 88px;
   font-weight: bold;
+
+  line-height: 88px;
 }
 .search-form-input {
   background-color: #f9f7fe;
@@ -56,12 +58,11 @@ header {
   padding: 15px 20px;
 }
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
-  margin-left: 10px;
+  width: 48px;
+  height: 88px;
 }
 .weather-app-unit {
-  margin-top: 20px;
+  margin-top: 6px;
   font-size: 20px;
 }
 .search-form-button {
