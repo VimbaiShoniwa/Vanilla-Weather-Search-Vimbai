@@ -81,13 +81,17 @@ main {
 
 .weather-forecast {
   margin-top: 20px;
-  text-align: center;
-  color: black;
+  display: flex;
+  justify-content: space-around;
 }
 
 .weather-forecast-date {
+  text-align: center;
   font-size: 16px;
   opacity: 0.5;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: black;
 }
 
 .weather-forecast-temperature-min {
@@ -96,6 +100,9 @@ main {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
